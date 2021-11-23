@@ -34,7 +34,7 @@ namespace Calnedar_App
             int days = DateTime.DaysInMonth(now.Year, now.Month);
             // convert the startof the month to integer
             int dayoftheweek = Convert.ToInt32(startofthemonth.DayOfWeek.ToString("d")) + 1;
-            MessageBox.Show(dayoftheweek.ToString());
+            //MessageBox.Show(dayoftheweek.ToString());
             //first a blank usercontrol will be created
             for (int i = 1; i < dayoftheweek; i++)
             {
