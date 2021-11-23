@@ -33,10 +33,16 @@ namespace Calnedar_App
             //get the count of days of the month
             int days = DateTime.DaysInMonth(now.Year, now.Month);
             // convert the startof the month to integer
-            int dayoftheweek = Convert.ToInt32(startofthemonth.DayOfWeek.ToString("d"));
-
+            int dayoftheweek = Convert.ToInt32(startofthemonth.DayOfWeek.ToString("d")) + 1;
+            MessageBox.Show(dayoftheweek.ToString());
             //first a blank usercontrol will be created
-            //for()
+            for (int i = 1; i < dayoftheweek; i++)
+            {
+                UserControlForm ucblank = new UserControlForm();
+                ucblank.TopLevel = false;
+                daycontainer.Controls.Add(ucblank);
+                ucblank.Show();
+            }
         }
 
         private void button_Previous_Click(object sender, EventArgs e)
@@ -48,6 +54,11 @@ namespace Calnedar_App
         {
             DialogResult = DialogResult.OK;
             Close();
+        }
+
+        private void button_next_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
