@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\bin\Debug\Calnedar-App.exe.config
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\bin\Debug\Calnedar-App.exe
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\bin\Debug\Calnedar-App.pdb
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\obj\Debug\Calnedar-App.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\obj\Debug\Calnedar_App.Form1.resources
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\obj\Debug\Calnedar_App.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\obj\Debug\Calnedar-App.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\obj\Debug\Calnedar-App.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\obj\Debug\Calnedar-App.exe
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\obj\Debug\Calnedar-App.pdb
+C:\Users\Lenovo\source\repos\Calnedar-App\Calnedar-App\obj\Debug\Calnedar_App.UserControlForm.resources
