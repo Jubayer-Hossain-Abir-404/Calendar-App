@@ -29,21 +29,36 @@ namespace Calnedar_App
         /// </summary>
         private void InitializeComponent()
         {
+            this.label_days = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label_days
+            // 
+            this.label_days.AutoSize = true;
+            this.label_days.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_days.Location = new System.Drawing.Point(61, 32);
+            this.label_days.Name = "label_days";
+            this.label_days.Size = new System.Drawing.Size(32, 23);
+            this.label_days.TabIndex = 0;
+            this.label_days.Text = "00";
             // 
             // UserControlDays
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(170, 85);
+            this.Controls.Add(this.label_days);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UserControlDays";
             this.Text = "UserControlDays";
             this.Load += new System.EventHandler(this.UserControlDays_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label_days;
     }
 }

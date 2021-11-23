@@ -21,5 +21,10 @@ namespace Calnedar_App
         {
 
         }
+
+        public void days(int numday)
+        {
+            label_days.Text = numday + "";
+        }
     }
 }

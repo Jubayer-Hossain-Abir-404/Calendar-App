@@ -43,6 +43,15 @@ namespace Calnedar_App
                 daycontainer.Controls.Add(ucblank);
                 ucblank.Show();
             }
+            //usercontrol for days
+            for(int i=1; i<=days; i++)
+            {
+                UserControlDays ucdays = new UserControlDays();
+                ucdays.TopLevel = false;
+                ucdays.days(i);
+                daycontainer.Controls.Add(ucdays);
+                //ucblank.Show();
+            }
         }
 
         private void button_Previous_Click(object sender, EventArgs e)
