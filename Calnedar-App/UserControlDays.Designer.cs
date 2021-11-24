@@ -36,7 +36,7 @@ namespace Calnedar_App
             // 
             this.label_days.AutoSize = true;
             this.label_days.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_days.Location = new System.Drawing.Point(61, 32);
+            this.label_days.Location = new System.Drawing.Point(73, 41);
             this.label_days.Name = "label_days";
             this.label_days.Size = new System.Drawing.Size(32, 23);
             this.label_days.TabIndex = 0;
@@ -47,7 +47,7 @@ namespace Calnedar_App
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(170, 85);
+            this.ClientSize = new System.Drawing.Size(170, 108);
             this.Controls.Add(this.label_days);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UserControlDays";

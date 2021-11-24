@@ -41,19 +41,20 @@ namespace Calnedar_App
             this.label7 = new System.Windows.Forms.Label();
             this.panel_top = new System.Windows.Forms.Panel();
             this.button_exit = new System.Windows.Forms.Button();
+            this.LBDate = new System.Windows.Forms.Label();
             this.panel_top.SuspendLayout();
             this.SuspendLayout();
             // 
             // daycontainer
             // 
-            this.daycontainer.Location = new System.Drawing.Point(12, 135);
+            this.daycontainer.Location = new System.Drawing.Point(12, 156);
             this.daycontainer.Name = "daycontainer";
-            this.daycontainer.Size = new System.Drawing.Size(1247, 662);
+            this.daycontainer.Size = new System.Drawing.Size(1247, 577);
             this.daycontainer.TabIndex = 0;
             // 
             // button_Previous
             // 
-            this.button_Previous.Location = new System.Drawing.Point(1083, 803);
+            this.button_Previous.Location = new System.Drawing.Point(1064, 774);
             this.button_Previous.Name = "button_Previous";
             this.button_Previous.Size = new System.Drawing.Size(75, 23);
             this.button_Previous.TabIndex = 1;
@@ -63,7 +64,7 @@ namespace Calnedar_App
             // 
             // button_next
             // 
-            this.button_next.Location = new System.Drawing.Point(1184, 803);
+            this.button_next.Location = new System.Drawing.Point(1165, 774);
             this.button_next.Name = "button_next";
             this.button_next.Size = new System.Drawing.Size(75, 23);
             this.button_next.TabIndex = 2;
@@ -148,7 +149,7 @@ namespace Calnedar_App
             this.panel_top.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_top.Location = new System.Drawing.Point(0, 0);
             this.panel_top.Name = "panel_top";
-            this.panel_top.Size = new System.Drawing.Size(1285, 31);
+            this.panel_top.Size = new System.Drawing.Size(1274, 31);
             this.panel_top.TabIndex = 10;
             // 
             // button_exit
@@ -157,7 +158,7 @@ namespace Calnedar_App
             this.button_exit.BackColor = System.Drawing.Color.Transparent;
             this.button_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_exit.ForeColor = System.Drawing.Color.White;
-            this.button_exit.Location = new System.Drawing.Point(1249, 0);
+            this.button_exit.Location = new System.Drawing.Point(1238, 0);
             this.button_exit.Margin = new System.Windows.Forms.Padding(4);
             this.button_exit.Name = "button_exit";
             this.button_exit.Size = new System.Drawing.Size(36, 31);
@@ -166,11 +167,24 @@ namespace Calnedar_App
             this.button_exit.UseVisualStyleBackColor = false;
             this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
             // 
+            // LBDate
+            // 
+            this.LBDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.LBDate.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBDate.Location = new System.Drawing.Point(335, 46);
+            this.LBDate.Name = "LBDate";
+            this.LBDate.Size = new System.Drawing.Size(586, 40);
+            this.LBDate.TabIndex = 11;
+            this.LBDate.Text = "MONTH YEAR";
+            this.LBDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LBDate.Click += new System.EventHandler(this.LBDate_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1285, 828);
+            this.ClientSize = new System.Drawing.Size(1274, 828);
+            this.Controls.Add(this.LBDate);
             this.Controls.Add(this.panel_top);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
@@ -207,6 +221,7 @@ namespace Calnedar_App
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel_top;
         private System.Windows.Forms.Button button_exit;
+        private System.Windows.Forms.Label LBDate;
     }
 }
 

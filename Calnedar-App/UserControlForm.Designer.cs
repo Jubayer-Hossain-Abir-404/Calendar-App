@@ -36,7 +36,7 @@ namespace Calnedar_App
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(170, 85);
+            this.ClientSize = new System.Drawing.Size(170, 108);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UserControlForm";
             this.Text = "UserControlForm";
