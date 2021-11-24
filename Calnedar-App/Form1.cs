@@ -65,8 +65,13 @@ namespace Calnedar_App
         {
             daycontainer.Controls.Clear();
             //increment month to get to next month
+            if (month == 1)
+            {
+                month = 13;
+            }
             month--;
             //year++;
+            
             string monthname = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
             LBDate.Text = monthname + " " + year;
             DateTime startofthemonth = new DateTime(year, month, 1);
@@ -110,8 +115,14 @@ namespace Calnedar_App
         {
             daycontainer.Controls.Clear();
             //increment month to get to next month
+            if (month == 12)
+            {
+                MessageBox.Show("It Works!!");
+                month = 0;
+            }
             month++;
             //year++;
+            
             string monthname = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
             LBDate.Text = monthname + " "  + year;
             DateTime startofthemonth = new DateTime(year, month, 1);
@@ -138,6 +149,7 @@ namespace Calnedar_App
                 ucdays.Show();
                 //ucblank.Show();
             }
+            
         }
     }
 }
