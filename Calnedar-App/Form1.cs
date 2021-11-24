@@ -50,7 +50,7 @@ namespace Calnedar_App
                 ucdays.TopLevel = false;
                 ucdays.days(i);
                 daycontainer.Controls.Add(ucdays);
-                
+                ucdays.Show();
                 //ucblank.Show();
             }
         }
